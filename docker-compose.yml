@@ -1,7 +1,4 @@
-version: '3.8'
-
 services:
-  # Serviço PostgreSQL
   postgres:
     image: postgres:16-alpine
     container_name: security-postgres
@@ -22,11 +19,8 @@ services:
       - security-network
     restart: unless-stopped
 
-  # Serviço API Spring Boot
   api:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: .
     container_name: security-api
     ports:
       - "8080:8080"
@@ -45,8 +39,6 @@ services:
 
 volumes:
   postgres_data:
-    driver: local
 
 networks:
   security-network:
-    driver: bridge
