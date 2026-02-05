@@ -1,4 +1,4 @@
-package com.security.test.api.factory;
+package com.security.test.api.util;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.security.test.api.dto.request.LoginRequestDTO;
