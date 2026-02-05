@@ -14,11 +14,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @Component
 public class TokenUtil {
 
-	private final ObjectMapper objectMapper;
-
-	public TokenUtil(ObjectMapper objectMapper) {
-		this.objectMapper = objectMapper;
-	}
+	private final ObjectMapper objectMapper = new ObjectMapper();
 
 	public String obtainAccessToken(MockMvc mockMvc, String username, String password) throws Exception {
 		LoginRequestDTO loginRequest = new LoginRequestDTO(username, password);
