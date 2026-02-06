@@ -1,6 +1,6 @@
 package com.security.test.api.factory;
 
-import com.security.test.api.entity.Book;
+import com.security.test.api.infra.entity.Book;
 
 public class BookFactory {
 

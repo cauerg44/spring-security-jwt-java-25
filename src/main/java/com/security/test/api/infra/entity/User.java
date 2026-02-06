@@ -1,4 +1,4 @@
-package com.security.test.api.entity;
+package com.security.test.api.infra.entity;
 
 import com.security.test.api.enums.UserRole;
 import jakarta.persistence.*;

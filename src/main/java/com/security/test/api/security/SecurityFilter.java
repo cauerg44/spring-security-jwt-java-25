@@ -1,6 +1,6 @@
 package com.security.test.api.security;
 
-import com.security.test.api.repository.UserRepository;
+import com.security.test.api.infra.repository.UserRepository;
 import com.security.test.api.utils.TokenProviderUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

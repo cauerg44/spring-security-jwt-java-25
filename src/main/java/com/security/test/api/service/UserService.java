@@ -1,6 +1,6 @@
 package com.security.test.api.service;
 
-import com.security.test.api.repository.UserRepository;
+import com.security.test.api.infra.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

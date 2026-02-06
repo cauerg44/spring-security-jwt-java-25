@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.security.test.api.dto.request.BookRequestSaveDTO;
 import com.security.test.api.dto.request.BookRequestUpdateDTO;
 import com.security.test.api.dto.response.BookResponseDTO;
-import com.security.test.api.entity.Book;
+import com.security.test.api.infra.entity.Book;
 import com.security.test.api.util.TokenUtil;
 
 import org.junit.jupiter.api.BeforeEach;
